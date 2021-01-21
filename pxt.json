@@ -1,0 +1,30 @@
+{
+    "name": "platFORM",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.10.0",
+        "color-coded-tilemap": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.2.16",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
